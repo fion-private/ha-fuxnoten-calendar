@@ -29,6 +29,8 @@ their portal. Use at your own risk.
 
 ### Via HACS (recommended)
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=fion-private&repository=ha-fuxnoten-calendar&category=integration)
+
 1. In HACS, add this repository as a custom repository (category: Integration):
    `https://github.com/fion-private/ha-fuxnoten-calendar`
 2. Install "FuxNoten Elternportal" from HACS.

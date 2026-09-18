@@ -4,9 +4,9 @@
     "codeowners": ["@fion-private"],
     "config_flow": true,
     "documentation": "https://github.com/fion-private/ha-fuxnoten-calendar",
-    "issue_tracker": "https://github.com/fion-private/ha-fuxnoten-calendar/issues",
-    "iot_class": "cloud_polling",
     "integration_type": "hub",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/fion-private/ha-fuxnoten-calendar/issues",
     "requirements": [],
     "version": "0.1.0"
 }

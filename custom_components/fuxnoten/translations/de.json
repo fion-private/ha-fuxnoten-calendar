@@ -3,7 +3,7 @@
         "step": {
             "user": {
                 "title": "FuxNoten Elternportal",
-                "description": "Zugangsdaten deines Elternportal-Logins. Die Schulnummer ist die Zahl in der Portal-URL, z. B. \"100213\" für https://100213.fuxnoten.com",
+                "description": "Zugangsdaten deines Elternportal-Logins. Die Schulnummer ist die Zahl in der Adresse deines Portals, z. B. \"100213\".",
                 "data": {
                     "school_number": "Schulnummer",
                     "username": "Benutzername",

@@ -3,7 +3,7 @@
         "step": {
             "user": {
                 "title": "FuxNoten Elternportal",
-                "description": "Credentials for your Elternportal login. The school number is the number used in your portal's URL, e.g. \"100213\" for https://100213.fuxnoten.com",
+                "description": "Credentials for your Elternportal login. The school number is the number in your portal's web address, e.g. \"100213\".",
                 "data": {
                     "school_number": "School number",
                     "username": "Username",

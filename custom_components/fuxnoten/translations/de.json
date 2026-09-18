@@ -1,0 +1,39 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "FuxNoten Elternportal",
+                "description": "Zugangsdaten deines Elternportal-Logins. Die Schulnummer ist die Zahl in der Portal-URL, z. B. \"100213\" für https://100213.fuxnoten.com",
+                "data": {
+                    "school_number": "Schulnummer",
+                    "username": "Benutzername",
+                    "password": "Passwort"
+                }
+            },
+            "select_options": {
+                "title": "Kind, Kalender und Abfragezeit",
+                "description": "Für welches Kind sollen Termine übertragen werden, in welchen Kalender, und zu welcher Uhrzeit täglich?",
+                "data": {
+                    "child_id": "Kind",
+                    "target_calendar": "Ziel-Kalender",
+                    "sync_time": "Tägliche Abfragezeit"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Benutzername oder Passwort falsch.",
+            "cannot_connect": "Verbindung zum Elternportal fehlgeschlagen. Ist die Schulnummer korrekt?",
+            "unknown": "Unerwarteter Fehler."
+        },
+        "abort": {
+            "already_configured": "Dieses Kind ist mit diesem Konto bereits eingerichtet."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "last_sync": {
+                "name": "Letzter Sync"
+            }
+        }
+    }
+}

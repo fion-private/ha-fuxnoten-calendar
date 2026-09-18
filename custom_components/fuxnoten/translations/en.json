@@ -1,0 +1,39 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "FuxNoten Elternportal",
+                "description": "Credentials for your Elternportal login. The school number is the number used in your portal's URL, e.g. \"100213\" for https://100213.fuxnoten.com",
+                "data": {
+                    "school_number": "School number",
+                    "username": "Username",
+                    "password": "Password"
+                }
+            },
+            "select_options": {
+                "title": "Child, calendar and sync time",
+                "description": "Which child should be synced, into which calendar, and at what time each day?",
+                "data": {
+                    "child_id": "Child",
+                    "target_calendar": "Target calendar",
+                    "sync_time": "Daily sync time"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Invalid username or password.",
+            "cannot_connect": "Could not connect to the Elternportal. Is the school number correct?",
+            "unknown": "Unexpected error."
+        },
+        "abort": {
+            "already_configured": "This child is already configured for this account."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "last_sync": {
+                "name": "Last sync"
+            }
+        }
+    }
+}
